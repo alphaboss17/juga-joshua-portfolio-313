@@ -1,4 +1,4 @@
-/* Reset and Base Styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -19,7 +19,7 @@
     --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
 
-/* Dark Theme Colors */
+
 .dark-mode {
     --primary-color: #3b82f6;
     --primary-dark: #2563eb;
@@ -33,7 +33,7 @@
     --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.3);
 }
 
-/* Global Styles */
+
 html {
     scroll-behavior: smooth;
 }
@@ -53,7 +53,7 @@ body {
     padding: 0 20px;
 }
 
-/* Typography */
+
 h1, h2, h3 {
     font-weight: 700;
     line-height: 1.2;
@@ -83,7 +83,7 @@ p {
     color: var(--primary-color);
 }
 
-/* Buttons */
+
 .btn {
     display: inline-block;
     padding: 12px 24px;
@@ -117,7 +117,7 @@ p {
     transform: translateY(-2px);
 }
 
-/* Hero Section */
+
 .hero-section {
     display: flex;
     flex-direction: column;
