@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juga_Joshua</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="components/navbar.js" defer></script>
+    <script src="components/theme-toggle.js" defer></script>
+</head>
+<body class="light-mode">
+    <custom-navbar></custom-navbar>
+    
+    <main class="container">
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="highlight">Joshua⭐</span></h1>
+                <h2>Mobile App Developer</h2>
+                <p> I'm a 300 level Software Engineering student of Bowen University and I create beautiful and functional cross-platform mobile applications with a focus on user-centered design and clean code.</p>
+                <div class="button-group">
+                    <a href="#contact" class="btn btn-primary">Contact Me</a>
+                    <a href="#projects" class="btn btn-secondary">View Work</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-image">
+                    <img src="images/dev.jpg" alt="Profile">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="card">
+                    <i class="fas fa-code icon"></i>
+                    <h3>Development</h3>
+                    <p>Clean, efficient code with modern frameworks and best practices.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-paint-brush icon"></i>
+                    <h3>Design</h3>
+                    <p>Beautiful UI that prioritize user experience and accessibility.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-chart-line icon"></i>
+                    <h3>Optimization</h3>
+                    <p>Performance-focused solutions that load fast and work smoothly on all devices.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3><a href="https://github.com/alphaboss17/quicknote">Notes App</a></h3>
+                        <p>An easy access app for taking notes on the go (for IOS & Android)</p>
+                        <div class="tags">
+                            <span class="tag">Flutter & Dart</span>
+                            <span class="tag">Firebase</span>
+                            <span class="tag">SQL</span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>E-commerce Platform</h3>
+                        <p>A modern online store with seamless checkout experience.</p>
+                        <div class="tags">
+                            <span class="tag">Flutter & Dart</span>
+                            <span class="tag">Firebase</span>
+                            <span class="tag">Node.js</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Portfolio Website</h3>
+                        <p>Custom portfolio for a photographer showcasing their work.</p>
+                        <div class="tags">
+                            <span class="tag">HTML/CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-form">
+                <form>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <p>Juga Joshua Emeliem  BU23SEN1009</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
